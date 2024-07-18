@@ -1,7 +1,7 @@
 "use client" ;
 import React, { useState } from 'react';
 import logo from '@/app/assests/icons/HomeLogo.jpg' ;
-import menu from '@/app/assests/icons/menu.png'
+import menu from '@/app/assests/icons/menu.png' ;
 import '@/components/userShared/Navbar/Navbar.css'
 import Image from 'next/image';
 
@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         {/*------------------ navlist section for large and medium device-------------------- */}
         <div className="lg:flex md:flex sm: hidden">
-          <ul className="flex gap-10 uppercase text-lg ">
+          <ul className="flex gap-10 uppercase text-sm ">
             <div className="hover-hr">
               <li>Home</li>
               <hr className="border border-black bg-black  h-[2px]  w-[50px]" />

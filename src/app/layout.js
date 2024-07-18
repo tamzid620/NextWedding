@@ -1,9 +1,14 @@
-import { Inter } from "next/font/google";
+import { Merriweather } from "next/font/google" ;
 import "./globals.css";
 import Navbar from "@/components/userShared/Navbar/Navbar";
 import Footer from "@/components/userShared/Footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+
+const merriweather = Merriweather({
+  weight: '400',
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: "Wedding",
@@ -13,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={merriweather.className}>
       <Navbar/>
         {children}
       <Footer/>
