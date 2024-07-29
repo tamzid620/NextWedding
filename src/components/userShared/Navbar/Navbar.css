@@ -1,10 +1,10 @@
-/* Navbar.css (or your preferred CSS file) */
+
 .hover-hr:hover hr {
-    opacity: 1; /* Show the <hr> on hover */
+    opacity: 1; 
   }
   
   .hover-hr hr {
-    opacity: 0; /* Hide the <hr> by default */
-    transition: opacity 0.5s ease; /* Smooth transition */
+    opacity: 0;
+    transition: opacity 0.5s ease; 
   }
   

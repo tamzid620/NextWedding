@@ -13,7 +13,7 @@ const Navbar = () => {
     };
   
     return (
-      <div className="flex justify-between items-center mx-3 ">
+      <div className="flex justify-between items-center mx-4 ">
         {/* Image section  */}
         <div>
           <Image className="w-[100px]" src={logo} alt="" />
@@ -23,28 +23,28 @@ const Navbar = () => {
           <ul className="flex gap-10 uppercase text-sm ">
             <div className="hover-hr">
               <li>Home</li>
-              <hr className="border border-black bg-black  h-[2px]  w-[50px]" />
+              <hr className="border border-black bg-black  h-[2px]  w-[45px]" />
             </div>
             <div className="hover-hr">
               <li className="">Portfolio</li>
-              <hr className="border border-black bg-black  h-[2px]  w-[95px]" />
+              <hr className="border border-black bg-black  h-[2px]  w-[85px]" />
             </div>
             <div className="hover-hr">
               <li>Gallery</li>
   
-              <hr className="border border-black bg-black  h-[2px]  w-[75px]" />
+              <hr className="border border-black bg-black  h-[2px]  w-[70px]" />
             </div>
             <div className="hover-hr">
               <li>Blog</li>
-              <hr className="border border-black bg-black  h-[2px]  w-[50px]" />
+              <hr className="border border-black bg-black  h-[2px]  w-[40px]" />
             </div>
             <div className="hover-hr">
               <li>About Us</li>
-              <hr className="border border-black bg-black  h-[2px]  w-[85px]" />
+              <hr className="border border-black bg-black  h-[2px]  w-[75px]" />
             </div>
             <div className="hover-hr">
               <li>Shop</li>
-              <hr className="border border-black bg-black  h-[2px]  w-[50px]" />
+              <hr className="border border-black bg-black  h-[2px]  w-[40px]" />
             </div>
           </ul>
         </div>
