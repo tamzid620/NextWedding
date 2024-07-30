@@ -9,11 +9,11 @@ import "@/components/userShared/TypesOf/TypeOf.css";
 
 const TypeOf = () => {
   return (
-    <div className="flex justify-center ">
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-3 my-10">
+    <div className="flex justify-center bg-white">
+      <div className=" grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-3 my-28">
         
         {/* img1 section  */}
-        <div className="relative">
+        <div className="relative md:-mt-[40px]">
           <Image className="relative" height={400} src={img1} alt="" />
           <div className="absolute top-0 bg-black opacity-0 w-full h-[400px] uppercase text-white img1title hover:opacity-60 hover:transition hover:duration-500">
             <h2 className="pt-[300px] ps-5">
@@ -41,7 +41,7 @@ const TypeOf = () => {
         </div>
 
         {/* img3 section  */}
-        <div className="relative">
+        <div className="relative md:-mt-[40px]">
           <Image className="relative" height={400} src={img3} alt="" />
           <div className="absolute top-0 bg-black opacity-0 w-full h-[400px] uppercase text-white img1title hover:opacity-60 hover:transition hover:duration-500">
             <h2 className="pt-[300px] ps-5">

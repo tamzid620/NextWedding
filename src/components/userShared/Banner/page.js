@@ -20,7 +20,7 @@ const Banner = () => {
   }, [currentBanner]);
 
   return (
-    <div className="relative">
+    <div className="relative bg-gray-100">
       {/* bannerImages section  */}
       <div>
       

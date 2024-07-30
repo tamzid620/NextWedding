@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+main{
+    background-image: url('../app/assests/images/groom-bride.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+  }
