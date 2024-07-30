@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Lora } from "next/font/google" ;
 import img1 from "@/app/assests/images/h9-feautured-img-0a.jpg";
 import img2 from "@/app/assests/images/h9-feautured-img-1a.jpg";
 import img3 from "@/app/assests/images/h9-feautured-img-2a.jpg";
