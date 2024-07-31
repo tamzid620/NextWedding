@@ -34,7 +34,7 @@ const Testimonial = () => {
       const { text, date } = testimonialTexts[currentIndex];
 
   return (
-    <div className="relative w-full h-screen bg-transparent flex items-center justify-center">
+    <div className="relative w-full h-screen bg-transparent flex items-center justify-center mb-28">
       <div className="absolute inset-0 bg-black opacity-50" />
       <p
         style={{ fontFamily: "Lora, serif" }}
