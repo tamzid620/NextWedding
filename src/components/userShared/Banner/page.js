@@ -25,25 +25,25 @@ const Banner = () => {
       <div>
       
         <Image
-          className=" lg:w-full lg:h-screen sm: h-[700px] bg-gray-100"
+          className=" lg:w-full bg-gray-100"
           src={banner1}
           alt=""
           style={{ display: currentBanner === 1 ? "block" : "none" }}
         />
         <Image
-          className="lg:w-full lg:h-screen  sm: h-[700px] bg-gray-100"
+          className="lg:w-full bg-gray-100"
           src={banner2}
           alt=""
           style={{ display: currentBanner === 2 ? "block" : "none" }}
         />
         <Image
-          className="lg:w-full lg:h-screen  sm: h-[700px] bg-gray-100"
+          className="lg:w-full bg-gray-100"
           src={banner3}
           alt=""
           style={{ display: currentBanner === 3 ? "block" : "none" }}
         />
         <Image
-          className="lg:w-full lg:h-screen  sm: h-[700px] bg-gray-100"
+          className="lg:w-full bg-gray-100"
           src={banner4}
           alt=""
           style={{ display: currentBanner === 4 ? "block" : "none" }}
