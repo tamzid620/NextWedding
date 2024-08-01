@@ -1,8 +1,7 @@
 import { Merriweather } from "next/font/google" ;
 import "./globals.css";
-import Navbar from "@/components/userShared/Navbar/Navbar";
-import Footer from "@/components/userShared/Footer/Footer";
 
+import UserLayout from "@/components/userShared/UserLayout/page";
 
 const merriweather = Merriweather({
   weight: '400',
@@ -16,13 +15,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={merriweather.className}>
-      <Navbar/>
-        {children}
-      <Footer/>
-        </body>
+        <UserLayout>
+          { children }
+          </UserLayout>
+      </body>
     </html>
   );
 }

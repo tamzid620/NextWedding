@@ -20,7 +20,7 @@ const PricePlan = () => {
                     <span>Body Polish</span>   <br/>
                     <span>Face Treatment</span>  <br/>
                     </p>
-                    <button className='bg-gray-500 text-white rounded-sm mt-5 px-28 py-4 hover:bg-gray-400'>Buy</button>
+                    <button className='bg-gray-500 text-white rounded-sm mt-5 lg:px-28 md:px-20 sm: px-28 py-4 hover:bg-gray-400'>Buy</button>
                 </div>
                 {/* PREMIUM package  */}
                 <div className='border-t-2 border-gray-100 shadow-lg shadow-gray-400 py-16'>
@@ -35,7 +35,7 @@ const PricePlan = () => {
                     <span>Body Polish</span>   <br/>
                     <span>Face Treatment</span>  <br/>
                     </p>
-                    <button className='bg-gray-500 text-white  rounded-sm mt-5 px-28 py-4 hover:bg-gray-400'>Buy</button>
+                    <button className='bg-gray-500 text-white  rounded-sm mt-5 lg:px-28 md:px-20 sm: px-28 py-4 hover:bg-gray-400'>Buy</button>
                 </div>
                 {/* Premium package  */}
                 <div className='border-t-2 border-gray-100 shadow-lg shadow-gray-400 py-16'>
@@ -50,7 +50,7 @@ const PricePlan = () => {
                     <span>Body Polish</span>   <br/>
                     <span>Face Treatment</span>  <br/>
                     </p>
-                    <button className='bg-gray-500 text-white rounded-sm mt-5 px-28 py-4 hover:bg-gray-400'>Buy</button>
+                    <button className='bg-gray-500 text-white rounded-sm mt-5 lg:px-28 md:px-20 sm: px-28 py-4 hover:bg-gray-400'>Buy</button>
                 </div>
             </div>
         </div>

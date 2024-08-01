@@ -98,12 +98,15 @@ const LoveStories = () => {
     <div className="bg-white py-28 text-center">
       <h1 className="text-4xl mb-3">Love Stories</h1>
       <p className="text-sm text-gray-500">I slayed a stranger's squire</p>
-      <div className="mt-10 text-start grid lg:grid-cols-3 md:grid-cols-2 sm: grid-cols-1 gap-5">
+    <div className="flex justify-center ">
+      <div className="mt-10 text-start grid lg:grid-cols-3 md:grid-cols-2 sm: grid-cols-1 gap-8">
       {LoveStoriesData.slice(0, visibleCards).map((story) => (
-          <div key={story.id} className="card-zoom">
+          <div key={story.id} className="h-[320px]">
+          <div className="card-zoom">
             <figure className="zoom-effect">
               <Image className="card-image" width={380} height={240} src={story.img} alt={story.title} />
             </figure>
+          </div>
             <h1 style={{ fontFamily: "Lora, serif" }} className="text-lg mt-3">
               {story.title}
             </h1>
@@ -111,6 +114,7 @@ const LoveStories = () => {
           </div>
         ))}
       </div>
+    </div>
         <div className="flex justify-center">
       {visibleCards < LoveStoriesData.length && (
           <button

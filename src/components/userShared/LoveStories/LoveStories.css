@@ -1,7 +1,6 @@
 .card-zoom {
     overflow: hidden;
-    width: 380px;
-    height: 320px;
+    height: 250px;
 }
 .card-image{
     height: 250px;
