@@ -13,7 +13,7 @@ const TypeOf = () => {
         
         {/* img1 section  */}
        <div className="relative -mt-[40px] ">
-          <Image className="relative shadow-lg shadow-gray-500" height={400} src={img1} alt="" />
+          <Image className="relative shadow-lg shadow-gray-500 bg-gray-200 " height={400} src={img1} alt="" />
           <div className="absolute top-0 bg-black opacity-0 w-full h-[400px] uppercase text-white img1title hover:opacity-60 hover:transition hover:duration-500">
             <h2 className="pt-[300px] ps-5">
               <span className="text-xs">Photography</span> <br />
@@ -27,7 +27,7 @@ const TypeOf = () => {
 
         {/* img2 section  */}
         <div className="relative -mb-[40px]">
-          <Image className="relative shadow-md shadow-gray-500" height={400} src={img2} alt="" />
+          <Image className="relative shadow-md shadow-gray-500 bg-gray-200" height={400} src={img2} alt="" />
           <div className="absolute top-0 bg-black opacity-0 w-full h-[400px] uppercase text-white img1title hover:opacity-60 hover:transition hover:duration-500">
             <h2 className="pt-[300px] ps-5">
               <span className="text-sm">Photography</span> <br />
@@ -41,7 +41,7 @@ const TypeOf = () => {
 
         {/* img3 section  */}
         <div className="relative md:-mt-[40px]">
-          <Image className="relative shadow-md shadow-gray-500" height={400} src={img3} alt="" />
+          <Image className="relative shadow-md shadow-gray-500 bg-gray-200" height={400} src={img3} alt="" />
           <div className="absolute top-0 bg-black opacity-0 w-full h-[400px] uppercase text-white img1title hover:opacity-60 hover:transition hover:duration-500">
             <h2 className="pt-[300px] ps-5">
               <span className="text-sm">Photography</span> <br />
@@ -55,7 +55,7 @@ const TypeOf = () => {
 
         {/* img4 section  */}
         <div className="relative">
-          <Image className="relative shadow-md shadow-gray-500" height={400} src={img4} alt="" />
+          <Image className="relative shadow-md shadow-gray-500 bg-gray-200" height={400} src={img4} alt="" />
           <div className="absolute top-0 bg-black opacity-0 w-full h-[400px] uppercase text-white img1title hover:opacity-60 hover:transition hover:duration-500">
             <h2 className="pt-[300px] ps-5">
               <span className="text-sm">Photography</span> <br />

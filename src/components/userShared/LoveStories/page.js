@@ -104,7 +104,7 @@ const LoveStories = () => {
           <div key={story.id} className="h-[320px]">
           <div className="card-zoom">
             <figure className="zoom-effect">
-              <Image className="card-image" width={380} height={240} src={story.img} alt={story.title} />
+              <Image className="card-image bg-gray-200" width={380} height={240} src={story.img} alt={story.title} />
             </figure>
           </div>
             <h1 style={{ fontFamily: "Lora, serif" }} className="text-lg mt-3">
@@ -118,6 +118,7 @@ const LoveStories = () => {
         <div className="flex justify-center">
       {visibleCards < LoveStoriesData.length && (
           <button
+          title="Load More"
             className="bg-gray-500 text-white rounded-sm mt-20 px-20 py-4 hover:bg-gray-400"
             onClick={handleLoadMore}
           >

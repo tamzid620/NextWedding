@@ -20,30 +20,30 @@ const Banner = () => {
   }, [currentBanner]);
 
   return (
-    <div className="relative bg-gray-100">
+    <div className="relative bg-gray-200">
       {/* bannerImages section  */}
       <div>
       
         <Image
-          className=" lg:w-full bg-gray-100"
+          className=" w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
           src={banner1}
           alt=""
           style={{ display: currentBanner === 1 ? "block" : "none" }}
         />
         <Image
-          className="lg:w-full bg-gray-100"
+          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
           src={banner2}
           alt=""
           style={{ display: currentBanner === 2 ? "block" : "none" }}
         />
         <Image
-          className="lg:w-full bg-gray-100"
+          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
           src={banner3}
           alt=""
           style={{ display: currentBanner === 3 ? "block" : "none" }}
         />
         <Image
-          className="lg:w-full bg-gray-100"
+          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
           src={banner4}
           alt=""
           style={{ display: currentBanner === 4 ? "block" : "none" }}
