@@ -27,7 +27,7 @@ const Footer = () => {
 
         {/*^^^ image section ^^^ */}
         <div className="flex-1 flex justify-center mb-5 md:mb-0 p-5">
-          <Image src={footerImg} alt="Footer Image" width={200} height={100} />
+          <Image className="bg-gray-200" src={footerImg} alt="Footer Image" width={200} height={100} />
         </div>
 
         {/*^^^ follow us section ^^^ */}

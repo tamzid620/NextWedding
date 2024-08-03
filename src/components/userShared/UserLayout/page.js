@@ -2,8 +2,8 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import { IoIosArrowDropupCircle } from "react-icons/io";
 import { useEffect, useState } from "react";
+import { IoIosArrowDropupCircle } from "react-icons/io";
 
 const UserLayout = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,9 +36,10 @@ const UserLayout = ({ children }) => {
       {isVisible && (
         <div 
         onClick={scrollToTop}
-        className="fixed bottom-4 right-4 bg-white rounded-full w-[40px] border border-gray-300 z-50"
+        title="slide button"
+        className="fixed bottom-4 right-4 bg-white rounded-full w-[50px] border border-gray-300 z-50"
         >
-          <IoIosArrowDropupCircle className="hover:text-gray-400" size={40} />
+          <IoIosArrowDropupCircle className="hover:text-gray-400" size={50} />
         </div>
       )}
     </div>
